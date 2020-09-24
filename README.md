@@ -1,4 +1,6 @@
-version: python 3.5+
+version: 
+         
+         python 3.5+
 
          tensorflow 1.13.1-gpu
          
@@ -10,7 +12,9 @@ The scripts in file_WCD are used to test sgd with and without WCD method.
 
 WCD method in sgwn_CNN.py and sgwn.py.
 
-1.  run: FCN.py                 fully connected network without WCD
+1.  run: 
+
+         FCN.py                 fully connected network without WCD
 
          FCN_corr.py            fully connected network with WCD
          
@@ -22,7 +26,9 @@ WCD method in sgwn_CNN.py and sgwn.py.
 
     sgwn.py: wcd method for FCN
     
-3.  exchange dataset -> trn, tst = utils.get_svhn('CNN'/'FCN')
+3.  exchange dataset -> 
+
+                        trn, tst = utils.get_svhn('CNN'/'FCN')
 
                         trn, tst = utils.get_mnist('CNN'/'FCN')
                         
@@ -36,7 +42,7 @@ WCD method in sgwn_CNN.py and sgwn.py.
 
     activitation function -> cfg['ACTIVATION']
     
-5. We train the models with and without WCD converge to same-level training loss, then compare the optimal loss. Thus may train several times to get a model converge to the similar train loss with another. All experimental data is saved in WCD/experimental_data     
+5. We train the models with and without WCD converge to same-level training loss, then compare the optimal test loss. Thus may train several times to get a model converge to the similar train loss with another. All experimental data is saved in WCD/experimental_data     
 
 
 Complexity_Measure:
