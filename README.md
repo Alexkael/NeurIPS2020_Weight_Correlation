@@ -12,7 +12,7 @@ The scripts in file_WCD are used to test sgd with and without WCD method.
 
 WCD method in sgwn_CNN.py and sgwn.py.
 
-1.  run: 
+1..  run: 
 
          FCN.py                 fully connected network without WCD
 
@@ -22,11 +22,13 @@ WCD method in sgwn_CNN.py and sgwn.py.
          
          VGG_corr.py            VGG with WCD, Uncomment sgwn_CNN.py line 87/89/91
 
-2.  sgwn_CNN.py: wcd method for CNN
+2..  
+
+    sgwn_CNN.py: wcd method for CNN
 
     sgwn.py: wcd method for FCN
     
-3.  exchange dataset -> 
+3..  exchange dataset -> 
 
                         trn, tst = utils.get_svhn('CNN'/'FCN')
 
@@ -44,7 +46,7 @@ WCD method in sgwn_CNN.py and sgwn.py.
 
     activitation function -> cfg['ACTIVATION']
     
-5. We train the models with and without WCD converge to same-level training loss, then compare the optimal test loss. Thus may train several times to get a model converge to the similar train loss with another. 
+5.. We train the models with and without WCD converge to same-level training loss, then compare the optimal test loss. Thus may train several times to get a model converge to the similar train loss with another. 
 
          e.g., 
 
