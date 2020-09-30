@@ -36,7 +36,8 @@ WCD method in sgwn_CNN.py and sgwn.py.
                         
                         trn, tst = utils.get_cifar10('CNN'/'FCN')
     
-4.  initial batch_size -> cfg['SGD_BATCHSIZE'] 
+4.  
+    initial batch_size -> cfg['SGD_BATCHSIZE'] 
 
     learning_rate -> cfg['SGD_LEARNINGRATE']
 
