@@ -418,7 +418,7 @@ Epoch 208/500
 Epoch 209/500
  - 80s - loss: 0.4479 - acc: 0.8623 - top_k_categorical_accuracy: 0.9788 - val_loss: 0.7759 - val_acc: 0.7825 - val_top_k_categorical_accuracy: 0.9536
 Epoch 210/500
- - 80s - loss: 0.4514 - acc: 0.8589 - top_k_categorical_accuracy: 0.9785 - val_loss: 0.7291 - val_acc: 0.7909 - val_top_k_categorical_accuracy: 0.9547
+ - 80s - loss: 0.4514 - acc: 0.8589 - top_k_categorical_accuracy: 0.9785 - val_loss: 0.7291 - val_acc: 0.7954 - val_top_k_categorical_accuracy: 0.9547
 Epoch 211/500
  - 80s - loss: 0.4475 - acc: 0.8604 - top_k_categorical_accuracy: 0.9785 - val_loss: 0.8001 - val_acc: 0.7752 - val_top_k_categorical_accuracy: 0.9542
 Epoch 212/500
