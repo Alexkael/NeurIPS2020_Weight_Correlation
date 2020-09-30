@@ -36,7 +36,8 @@ WCD method in sgwn_CNN.py and sgwn.py.
                         
                         trn, tst = utils.get_cifar10('CNN'/'FCN')
     
-4.  
+4..  
+   
     initial batch_size -> cfg['SGD_BATCHSIZE'] 
 
     learning_rate -> cfg['SGD_LEARNINGRATE']
@@ -45,13 +46,13 @@ WCD method in sgwn_CNN.py and sgwn.py.
     
 5. We train the models with and without WCD converge to same-level training loss, then compare the optimal test loss. Thus may train several times to get a model converge to the similar train loss with another. 
 
-e.g., 
+         e.g., 
 
-/WCD/experimental_data/VGG16_corr_cifar10_nol2.out, VGG16_corr_cifar10_nol2_2.out, VGG16_corr_cifar10_nol2_3.out, VGG16_corr_cifar10_nol2_4.out  
+         /WCD/experimental_data/VGG16_corr_cifar10_nol2.out, VGG16_corr_cifar10_nol2_2.out, VGG16_corr_cifar10_nol2_3.out, VGG16_corr_cifar10_nol2_4.out  
 
-VS  
+         VS  
 
-/WCD/experimental_data/VGG16_normal_cifar10_nol2.out, VGG16_normal_cifar10_nol2_2.out, VGG16_normal_cifar10_nol2_3.out, VGG16_normal_cifar10_nol2_4.out, VGG16_normal_cifar10_nol2_5.out
+         /WCD/experimental_data/VGG16_normal_cifar10_nol2.out, VGG16_normal_cifar10_nol2_2.out, VGG16_normal_cifar10_nol2_3.out, VGG16_normal_cifar10_nol2_4.out, VGG16_normal_cifar10_nol2_5.out
 
 All experimental data is saved in WCD/experimental_data     
 
