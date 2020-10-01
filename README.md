@@ -55,6 +55,15 @@ WCD method in sgwn_CNN.py and sgwn.py.
          VS  
 
          /WCD/experimental_data/VGG16_normal_cifar10_nol2.out, VGG16_normal_cifar10_nol2_2.out, VGG16_normal_cifar10_nol2_3.out, VGG16_normal_cifar10_nol2_4.out, VGG16_normal_cifar10_nol2_5.out
+         
+         AND
+         
+         /WCD/experimental_data/VGG19_corr_cifar10_nol2.out, VGG19_corr_cifar10_nol2_2.out, VGG19_corr_cifar10_nol2_3.out, VGG19_corr_cifar10_nol2_4.out, VGG19_corr_cifar10_nol2_5.out
+         
+         VS
+         
+         /WCD/experimental_data/VGG19_normal_cifar10_nol2.out, VGG19_normal_cifar10_nol2_2.out, VGG19_normal_cifar10_nol2_3.out, VGG19_normal_cifar10_nol2_4.out, VGG19_normal_cifar10_nol2_5.out
+         
 
 All experimental data is saved in WCD/experimental_data     
 
