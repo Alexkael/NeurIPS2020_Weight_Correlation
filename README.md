@@ -48,7 +48,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
 
     activitation function -> cfg['ACTIVATION']
     
-5.. We train the models with and without WCD **converge to same-level training loss**, then compare the optimal test loss. Thus may train several times to get a model converge to the similar train loss with another. **Please consult**
+5.. We train the models with and without WCD **#converge to same-level training loss**, then compare the optimal test loss. Thus may train several times to get a model converge to the similar train loss with another. **Please consult**
 
          /WCD/experimental_data/VGG16_corr_cifar10_nol2.out, VGG16_corr_cifar10_nol2_2.out, VGG16_corr_cifar10_nol2_3.out, VGG16_corr_cifar10_nol2_4.out  
 
