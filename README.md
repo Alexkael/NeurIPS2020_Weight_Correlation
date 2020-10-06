@@ -50,7 +50,8 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
     
 5.. We train the models with and without WCD **--converge to same-level train loss (training repeatedly, the model with invariant setting may converge to different train loss)--**, then compare the optimal test loss. Thus, we may train the same model (WCD or without WCD) several times to get a model converge to the similar train loss with another one (without WCD or WCD). **--e.g.,--**
 
-         /WCD/experimental_data/VGG16_corr_cifar10_nol2.out, VGG16_corr_cifar10_nol2_2.out, VGG16_corr_cifar10_nol2_3.out, VGG16_corr_cifar10_nol2_4.out  
+         /WCD/experimental_data/
+         VGG16_corr_cifar10_nol2.out, VGG16_corr_cifar10_nol2_2.out, VGG16_corr_cifar10_nol2_3.out, VGG16_corr_cifar10_nol2_4.out  
 
          VS  
 
