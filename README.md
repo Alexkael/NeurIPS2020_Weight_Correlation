@@ -51,12 +51,13 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
 5.. We train the models with and without WCD **--converge to same-level train loss (training repeatedly, the model with invariant setting may converge to different train loss)--**, then compare the optimal test loss. Thus, we may train the same model (WCD or without WCD) several times to get a model converge to the similar train loss with another one (without WCD or WCD). **--e.g.,--**
 
          /WCD/experimental_data/
-         VGG16_corr_cifar10_nol2.out, VGG16_corr_cifar10_nol2_2.out, VGG16_corr_cifar10_nol2_3.out, VGG16_corr_cifar10_nol2_4.out  
-
-         VS  
-
-         /WCD/experimental_data/VGG16_normal_cifar10_nol2.out, VGG16_normal_cifar10_nol2_2.out, VGG16_normal_cifar10_nol2_3.out, VGG16_normal_cifar10_nol2_4.out, VGG16_normal_cifar10_nol2_5.out
          
+         VGG16_corr_cifar10_nol2.out  (converge to)  1.015    VS      VGG16_normal_cifar10_nol2.out    1.015
+         
+         VGG16_corr_cifar10_nol2_2.out               0.995            VGG16_normal_cifar10_nol2_2.out  1.086
+         VGG16_corr_cifar10_nol2_3.out               1.098            VGG16_normal_cifar10_nol2_3.out  0.980
+         VGG16_corr_cifar10_nol2_4.out               1.045            VGG16_normal_cifar10_nol2_4.out  1.004
+                                                                      VGG16_normal_cifar10_nol2_5.out  0.993       
          AND
          
          /WCD/experimental_data/VGG19_corr_cifar10_nol2.out, VGG19_corr_cifar10_nol2_2.out, VGG19_corr_cifar10_nol2_3.out, VGG19_corr_cifar10_nol2_4.out, VGG19_corr_cifar10_nol2_5.out
