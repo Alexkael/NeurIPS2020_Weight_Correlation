@@ -60,13 +60,13 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
                                                                       VGG16_normal_cifar10_nol2_5.out  0.993       
          AND
          
-         /WCD/experimental_data/VGG19_corr_cifar10_nol2.out, VGG19_corr_cifar10_nol2_2.out, VGG19_corr_cifar10_nol2_3.out, VGG19_corr_cifar10_nol2_4.out, VGG19_corr_cifar10_nol2_5.out
+         VGG19_corr_cifar10_nol2.out                 1.021            VGG19_normal_cifar10_nol2.out    1.022                
          
-         VS
+         VGG19_corr_cifar10_nol2_2.out               0.987            VGG19_normal_cifar10_nol2_2.out  0.984
+         VGG19_corr_cifar10_nol2_3.out               1.014            VGG19_normal_cifar10_nol2_3.out  1.028
+         VGG19_corr_cifar10_nol2_4.out               1.010            VGG19_normal_cifar10_nol2_4.out  0.988
+         VGG19_corr_cifar10_nol2_5.out               1.056            VGG19_normal_cifar10_nol2_5.out  1.033
          
-         /WCD/experimental_data/VGG19_normal_cifar10_nol2.out, VGG19_normal_cifar10_nol2_2.out, VGG19_normal_cifar10_nol2_3.out, VGG19_normal_cifar10_nol2_4.out, VGG19_normal_cifar10_nol2_5.out
-         
-
 All experimental data is saved in WCD/experimental_data     
 
 
