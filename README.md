@@ -57,6 +57,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          
 All experimental data is saved in WCD/experimental_data     
 
+4.. Additional experimental data is saved in WCD/additional. However, as the networks are small and datasets are more complicated, the errors are pretty high and the results are more random.
 
 Complexity_Measure:
 
