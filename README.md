@@ -22,9 +22,9 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
 
 2..  
 
-    sgwn_CNN.py: wcd method for CNN
+         sgwn_CNN.py: wcd method for CNN
 
-    sgwn.py: wcd method for FCN
+         sgwn.py: wcd method for FCN
     
 3.. We train the models with and without WCD **--converge to same-level train loss (training repeatedly, the model with invariant setting may converge to different train loss)--**, then compare the optimal test loss. Thus, we may train the same model (WCD or without WCD) several times to get a model converge to the similar train loss with another one (without WCD or WCD). **--e.g.,--**
 
