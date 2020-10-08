@@ -8,10 +8,6 @@ version:
          
 WCD method:
 
-The scripts in file_WCD are used to test sgd with and without WCD method.
-
-WCD method in sgwn_CNN.py and sgwn.py.
-
 Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
 
 1..  run: 
@@ -22,7 +18,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          
          VGG.py                 VGG without WCD
          
-         VGG_corr.py            VGG with WCD, Uncomment sgwn_CNN.py line 87/89/91
+         VGG_corr.py            VGG with WCD, !!!Uncomment sgwn_CNN.py line 87 or 89 or 91
 
 2..  
 
@@ -30,25 +26,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
 
     sgwn.py: wcd method for FCN
     
-3..  exchange dataset -> 
-
-                        trn, tst = utils.get_svhn('CNN'/'FCN')
-
-                        trn, tst = utils.get_mnist('CNN'/'FCN')
-                        
-                        trn, tst = utils.get_fmnist('CNN'/'FCN')
-                        
-                        trn, tst = utils.get_cifar10('CNN'/'FCN')
-    
-4..  
-   
-    initial batch_size -> cfg['SGD_BATCHSIZE'] 
-
-    learning_rate -> cfg['SGD_LEARNINGRATE']
-
-    activitation function -> cfg['ACTIVATION']
-    
-5.. We train the models with and without WCD **--converge to same-level train loss (training repeatedly, the model with invariant setting may converge to different train loss)--**, then compare the optimal test loss. Thus, we may train the same model (WCD or without WCD) several times to get a model converge to the similar train loss with another one (without WCD or WCD). **--e.g.,--**
+3.. We train the models with and without WCD **--converge to same-level train loss (training repeatedly, the model with invariant setting may converge to different train loss)--**, then compare the optimal test loss. Thus, we may train the same model (WCD or without WCD) several times to get a model converge to the similar train loss with another one (without WCD or WCD). **--e.g.,--**
 
          /WCD/experimental_data/                  train loss                                          train loss  
          
