@@ -59,6 +59,10 @@ All experimental data is saved in WCD/experimental_data
 
 4.. Additional experimental data is saved in WCD/additional. However, as the networks are small and datasets are more complicated, the errors are pretty high and the results are more random.
 
+         For cifar100, last three layers of VGG adjusted to 120, 120, 100
+         
+         For cal256, last three layers of VGG adjusted to 257, 257, 257
+
 Complexity_Measure experiment:
 
          Results are shown in Complexity_Measure/complexity_measure_cifar10.ipynb and complexity_measure_cifar100.ipynb
