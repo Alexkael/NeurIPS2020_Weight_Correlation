@@ -42,7 +42,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          AND
          
          comparable group:
-         VGG16_corr_cifar10_nol2.out  (converge to)  1.015    VS      VGG16_normal_cifar10_nol2.out    1.015
+         VGG16_corr_cifar10_nol2.out  (converge to)  1.008    VS      VGG16_normal_cifar10_nol2.out    1.015
          
          unused:
          VGG16_corr_cifar10_nol2_2.out               0.995            VGG16_normal_cifar10_nol2_2.out  1.086
