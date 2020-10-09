@@ -33,7 +33,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          comparable group:
          VGG11_corr_cifar10_nol2.out  (converge to)  1.145    VS      VGG11_normal_cifar10_nol2.out    1.140
          
-         useless:
+         unused:
          VGG11_corr_cifar10_nol2_2.out               1.123            VGG11_normal_cifar10_nol2_2.out  1.161
          VGG11_corr_cifar10_nol2_3.out               1.342            VGG11_normal_cifar10_nol2_3.out  1.172
          VGG11_corr_cifar10_nol2_4.out               1.231            VGG11_normal_cifar10_nol2_4.out  1.199
@@ -44,7 +44,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          comparable group:
          VGG16_corr_cifar10_nol2.out  (converge to)  1.015    VS      VGG16_normal_cifar10_nol2.out    1.015
          
-         useless:
+         unused:
          VGG16_corr_cifar10_nol2_2.out               0.995            VGG16_normal_cifar10_nol2_2.out  1.086
          VGG16_corr_cifar10_nol2_3.out               1.098            VGG16_normal_cifar10_nol2_3.out  0.980
          VGG16_corr_cifar10_nol2_4.out               1.045            VGG16_normal_cifar10_nol2_4.out  1.004
@@ -55,7 +55,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          comparable group:
          VGG19_corr_cifar10_nol2.out                 1.021    VS      VGG19_normal_cifar10_nol2.out    1.022                
          
-         useless:
+         unused:
          VGG19_corr_cifar10_nol2_2.out               0.987            VGG19_normal_cifar10_nol2_2.out  0.984
          VGG19_corr_cifar10_nol2_3.out               1.014            VGG19_normal_cifar10_nol2_3.out  1.028
          VGG19_corr_cifar10_nol2_4.out               1.010            VGG19_normal_cifar10_nol2_4.out  0.988
