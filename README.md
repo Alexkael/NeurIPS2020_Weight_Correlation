@@ -37,7 +37,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          VGG11_corr_cifar10_nol2_2.out               1.123            VGG11_normal_cifar10_nol2_2.out  1.161
          VGG11_corr_cifar10_nol2_3.out               1.342            VGG11_normal_cifar10_nol2_3.out  1.172
          VGG11_corr_cifar10_nol2_4.out               1.231            VGG11_normal_cifar10_nol2_4.out  1.199
-         VGG11_corr_cifar10_nol2_5.out               1.121
+         VGG11_corr_cifar10_nol2_5.out               1.121            VGG11_normal_cifar10_nol2_5.out  1.285
                 
          AND
          
