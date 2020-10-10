@@ -48,7 +48,7 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          VGG16_corr_cifar10_nol2_2.out               0.995            VGG16_normal_cifar10_nol2_2.out  1.086
          VGG16_corr_cifar10_nol2_3.out               1.098            VGG16_normal_cifar10_nol2_3.out  0.980
          VGG16_corr_cifar10_nol2_4.out               1.045            VGG16_normal_cifar10_nol2_4.out  1.004
-                                                                      VGG16_normal_cifar10_nol2_5.out  0.993
+         VGG16_corr_cifar10_nol2_4.out               1.022            VGG16_normal_cifar10_nol2_5.out  0.993
                                                                       
          AND
          
@@ -61,9 +61,11 @@ Results are shown in /WCD/experimental_data/AAA_optimil_loss.ipynb
          VGG19_corr_cifar10_nol2_4.out               1.010            VGG19_normal_cifar10_nol2_4.out  0.988
          VGG19_corr_cifar10_nol2_5.out               1.056            VGG19_normal_cifar10_nol2_5.out  1.033
          
-All experimental data is saved in WCD/experimental_data     
+         All experimental data is saved in WCD/experimental_data     
+         We upload the repeat-five-times experimental data for FCN_mnist, VGG11_cifar10, VGG16_cifar10 and VGG19_cifar10. 
 
-4.. Additional experimental data is saved in WCD/additional. However, as the networks are small and datasets are more complicated, the errors are pretty high and the results are more random.
+
+5.. Additional experimental data is saved in WCD/additional. However, as the networks are small and datasets are more complicated, the errors are pretty high and the results are more random.
 
          For cifar100, last three layers of VGG adjusted to 120, 120, 100
          
