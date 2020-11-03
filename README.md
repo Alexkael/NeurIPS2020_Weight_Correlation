@@ -84,11 +84,11 @@ Complexity_Measure experiment:
 
          The raw models for complexity measure are saved in https://drive.google.com/drive/folders/1yfzvu-eQVntjTq_arabLBgGV2Ems98wQ?usp=sharing
 
-**Citation**
-If you use our code in your research, please cite
-@article{jin2020does,
-  title={How does Weight Correlation Affect the Generalisation Ability of Deep Neural Networks},
-  author={Jin, Gaojie and Yi, Xinping and Zhang, Liang and Zhang, Lijun and Schewe, Sven and Huang, Xiaowei},
-  journal={arXiv preprint arXiv:2010.05983},
-  year={2020}
-}
+**Citation**  
+If you use our code in your research, please cite  
+@article{jin2020does,  
+  title={How does Weight Correlation Affect the Generalisation Ability of Deep Neural Networks},  
+  author={Jin, Gaojie and Yi, Xinping and Zhang, Liang and Zhang, Lijun and Schewe, Sven and Huang, Xiaowei},  
+  journal={arXiv preprint arXiv:2010.05983},  
+  year={2020}  
+}  
